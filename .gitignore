@@ -5,8 +5,11 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
+build/
+*.log
 expo-env.d.ts
 
 # Native
@@ -17,6 +20,7 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.keystore
 
 # Metro
 .metro-health-check*
